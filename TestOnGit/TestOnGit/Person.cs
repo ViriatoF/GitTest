@@ -14,6 +14,11 @@ namespace TestOnGit
         public int Age { get; set; }
         public string Adresse { get; set; }
 
+        public Person()
+        {
+
+        }
+
         public Person(int aIdentifiant, string aNom, string aPrenom, int aAge, string aAdresse)
         {
             this.Identifiant = aIdentifiant;
